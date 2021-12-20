@@ -1,0 +1,102 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  flex-column-gap: 0px;
+  position: relative;
+  width: 100%;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+  min-width: 0;
+  padding: 32px;
+}
+.root__color_halfDark {
+  background: linear-gradient(0deg, rgb(5, 5, 5) 0%, rgb(5, 5, 5) 100%) left 0%
+    top 100% / 100% 50% no-repeat;
+}
+.root__color_dark {
+  background: rgb(24, 25, 26);
+}
+.content {
+  width: 100%;
+  height: auto;
+  max-width: 1104px /* plasmic-token: fYHobCfNqzJL */;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  min-width: 0;
+}
+.content > :global(.__wab_flex-container) {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-width: 0;
+  margin-top: calc(0px - 10px);
+  height: calc(100% + 10px);
+}
+.content > :global(.__wab_flex-container) > *,
+.content > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.content > :global(.__wab_flex-container) > picture > img,
+.content
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-top: 10px;
+}
+.titleContainer {
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 800px;
+  justify-content: center;
+  flex-direction: row;
+  min-width: 0;
+  display: none;
+}
+.titleContainer__hasTitle {
+  display: flex;
+}
+.slotTargetTitle {
+  font-size: 42px;
+  font-weight: 800;
+  color: rgb(5, 5, 5) /* plasmic-token: NEon4Y--Z */;
+  text-align: center;
+}
+.subtitleContainer {
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 800px;
+  justify-content: center;
+  flex-direction: row;
+  min-width: 0;
+  display: none;
+}
+.subtitleContainer__hasSubtitle {
+  display: flex;
+}
+.slotTargetSubtitle {
+  text-align: left;
+}
+.contentContainer {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  min-width: 0;
+}
+.contentContainer__hasTitle {
+  margin-top: calc(64px + 10px) !important;
+}
+.contentContainer__hasSubtitle {
+  margin-top: calc(64px + 10px) !important;
+}
+.contentContainer__hasTitle_hasSubtitle {
+  margin-top: calc(64px + 10px) !important;
+}

@@ -1,0 +1,257 @@
+.root {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  background: #232320;
+  cursor: pointer;
+  transition-property: background;
+  transition-duration: 0.1s;
+  border-radius: 6px;
+  padding: 10px 20px;
+  border-width: 0px;
+}
+.root > :global(.__wab_flex-container) {
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-left: calc(0px - 4px);
+  width: calc(100% + 4px);
+}
+.root > :global(.__wab_flex-container) > *,
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.root > :global(.__wab_flex-container) > picture > img,
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > picture > img {
+  margin-left: 4px;
+}
+.root__showStartIcon {
+  padding-left: 16px;
+}
+.root__color_clear {
+  background: #23232000;
+}
+.root__showEndIcon {
+  padding-right: 16px;
+}
+.root__isDisabled {
+  cursor: not-allowed;
+  opacity: 0.6;
+}
+.root__shape_rounded {
+  padding-left: 20px;
+  padding-right: 20px;
+  min-width: 100px;
+  border-radius: 999px;
+}
+.root__size_compact {
+  padding: 6px 12px;
+}
+.root__color_blue {
+  background: rgb(24, 119, 242);
+}
+.root__color_red {
+  background: #e54d2e;
+}
+.root__color_outlineBlue {
+  background: #ffffff00;
+  border: 1px solid rgb(24, 119, 242) /* plasmic-token: p-fCTrfjtL4 */;
+}
+.root__color_outlineRed {
+  background: #fff0ee00;
+  border: 1px solid #ca3214;
+}
+.root__shape_rounded_showStartIcon {
+  padding-left: 16px;
+}
+.root__size_compact_showStartIcon {
+  padding-left: 8px;
+}
+.root__showEndIcon_shape_rounded {
+  padding-right: 16px;
+}
+.root__size_compact_showEndIcon {
+  padding-right: 8px;
+}
+.root:hover {
+  background: #282826;
+}
+.root__color_clear:hover {
+  background: rgb(228, 230, 235);
+}
+.root__color_blue:hover {
+  background: #369eff;
+}
+.root__color_red:hover {
+  background: #ec5e41;
+}
+.root__color_outlineBlue:hover {
+  background: #e1f0ff;
+}
+.root__color_outlineRed:hover {
+  background: #ffe6e2;
+}
+.root:focus-within {
+  box-shadow: 0px 0px 0px 3px #96c7f2;
+  outline: none;
+}
+.root_____focusVisibleWithin {
+  box-shadow: 0px 0px 0px 3px #96c7f2;
+  outline: none;
+}
+.root:active {
+  background: #2e2e2b;
+}
+.root__color_clear:active {
+  background: rgb(228, 230, 235);
+}
+.root__color_blue:active {
+  background: #52a9ff;
+}
+.root__color_red:active {
+  background: #f16a50;
+}
+.root__color_outlineBlue:active {
+  background: #cee7fe;
+}
+.root__color_outlineRed:active {
+  background: #fdd8d3;
+}
+.startIconContainer {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: flex-start;
+}
+.startIconContainer__showStartIcon {
+  display: flex;
+}
+.slotTargetStartIcon {
+  color: #ffffff;
+}
+.slotTargetStartIcon__color_outlineBlue {
+  color: #006adc;
+}
+.slotTargetStartIcon__color_outlineRed {
+  color: #ca3214;
+}
+.svg__p3ILh {
+  position: relative;
+  object-fit: cover;
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+}
+.contentContainer {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: flex-start;
+}
+.root .contentContainer_____focusVisibleWithin {
+  outline: none;
+}
+.slotTargetChildren {
+  color: rgb(255, 255, 255) /* plasmic-token: 0--qf6-37rMt */;
+  font-weight: 400;
+  font-size: 16px;
+  white-space: pre;
+}
+.slotTargetChildren__color_clear {
+  color: #666666 /* plasmic-token: 6tPHCCj3bM4W */;
+}
+.slotTargetChildren__color_blue {
+  color: #ffffff;
+}
+.slotTargetChildren__color_red {
+  color: #ffffff;
+}
+.slotTargetChildren__color_outlineBlue {
+  color: #006adc;
+}
+.slotTargetChildren__color_outlineRed {
+  color: #ca3214;
+}
+.root:focus-within .slotTargetChildren > *,
+.root:focus-within .slotTargetChildren > .__wab_slot > *,
+.root:focus-within .slotTargetChildren > .__wab_slot > .__wab_slot > *,
+.root:focus-within
+  .slotTargetChildren
+  > .__wab_slot
+  > .__wab_slot
+  > .__wab_slot
+  > *,
+.root:focus-within .slotTargetChildren > picture > img,
+.root:focus-within .slotTargetChildren > .__wab_slot > picture > img,
+.root:focus-within
+  .slotTargetChildren
+  > .__wab_slot
+  > .__wab_slot
+  > picture
+  > img,
+.root:focus-within
+  .slotTargetChildren
+  > .__wab_slot
+  > .__wab_slot
+  > .__wab_slot
+  > picture
+  > img {
+  outline: none;
+}
+.root .slotTargetChildren_____focusVisibleWithin > *,
+.root .slotTargetChildren_____focusVisibleWithin > .__wab_slot > *,
+.root
+  .slotTargetChildren_____focusVisibleWithin
+  > .__wab_slot
+  > .__wab_slot
+  > *,
+.root
+  .slotTargetChildren_____focusVisibleWithin
+  > .__wab_slot
+  > .__wab_slot
+  > .__wab_slot
+  > *,
+.root .slotTargetChildren_____focusVisibleWithin > picture > img,
+.root .slotTargetChildren_____focusVisibleWithin > .__wab_slot > picture > img,
+.root
+  .slotTargetChildren_____focusVisibleWithin
+  > .__wab_slot
+  > .__wab_slot
+  > picture
+  > img,
+.root
+  .slotTargetChildren_____focusVisibleWithin
+  > .__wab_slot
+  > .__wab_slot
+  > .__wab_slot
+  > picture
+  > img {
+  outline: none;
+}
+.endIconContainer {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: flex-start;
+}
+.endIconContainer__showEndIcon {
+  display: flex;
+}
+.slotTargetEndIcon {
+  color: #ffffff;
+  font-size: 16px;
+}
+.slotTargetEndIcon__color_outlineBlue {
+  color: #006adc;
+}
+.slotTargetEndIcon__color_outlineRed {
+  color: #ca3214;
+}
+.svg__w0T0B {
+  position: relative;
+  object-fit: cover;
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+}
